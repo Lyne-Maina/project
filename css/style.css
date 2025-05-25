@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0;
+    padding: 0;
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: pink;
+}
+
+/* beginning of hero */
+.hero {
+    width: 1200px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    height: 60vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+}
+.hero h1 {
+    font-size: 7.0rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: navy;
+    
+}
+.hero p{
+    text-align: center;
+    margin-bottom: 1 rem;
+    font-size: 2.0rem;
+    color: darkslategray;
+    max-width: 600px; /* Limit the width of the paragraph */
+    line-height: 1.6; /* Increase line height for better readability */
+    padding: 0 20px; /* Add padding for better spacing */
+    font-family: 'Times New Roman', Times, serif; /* Use a clean, modern font */
+    font-weight: 900; /* Normal font weight for paragraph */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for depth */
+}
+
+
+.hero button {
+     background-color: white;
+    color: navy;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hero button:hover {
+    background-color: pink; /* Change background on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    
+}
+
+  
+/* beginning of section A*/
+
+.A {
+    width: 500px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    height: 60vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+} 
+.A .a {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.A span {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.A h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 1rem;
+}
+
+.A p {
+    font-size: 1.1rem;
+    color: darkslategray;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.A button {
+    background-color: white;
+    color: navy;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.A button:hover {
+    background-color: pink;
+    color: white;
+    transform: scale(1.05);
+}
+
+}
+.A p {
+    text-align: center;
+    margin-bottom: 1 rem;
+    font-size: 1.2rem;
+    color: darkslategray;
+    max-width: 400px;
+    line-height: 1.6; /* Increase line height for better readability */
+    padding: 0 20px; /* Add padding for better spacing */
+    font-family: 'Times New Roman', Times, serif; /* Use a clean, modern font */
+    font-weight: 900;
+}
+
+
+*/beginning of section B*/
+.services {
+    width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.services-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-header span {
+    color: teal;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.services-header h2 {
+    font-size: 2.5rem;
+    color: #0a2d3c;
+    margin: 10px 0;
+}
+
+.services-header p {
+    color: #555;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #123456;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.service-card button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    border: 2px solid #123456;
+    background-color: transparent;
+    color: #123456;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-card button:hover {
+    background-color: #123456;
+    color: white;
+}
