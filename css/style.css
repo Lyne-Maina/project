@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     margin: 0;
@@ -239,3 +240,82 @@
     background-color: #123456;
     color: white;
 }
+=======
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+}
+
+/* beginning of hero */
+.hero {
+    width: 1200px;
+    margin: 20px auto;
+    background-color: lightskyblue;
+    height: 60vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+    
+}
+.A {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    margin: 40px auto;
+    max-width: 200px;
+}
+.hero h1{
+    font-size: 70px;
+    color:brown;
+
+.hero p{
+    text-align: center;
+    margin-bottom: 1 rem;
+}
+
+    
+    
+}
+ /*beginning of A */
+ .A a span{
+align-items:left;
+}
+ .A a h2{
+    display: flex;
+   
+ }
+ 
+ .A a button a:hover {
+color: orange;
+}
+>>>>>>> 1636c59624019f44b881b1189e34fe1fa81f9585
